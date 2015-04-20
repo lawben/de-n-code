@@ -53,7 +53,7 @@ def main(args):
         if args.key is not None:
             encode(args.string, method, args.key)
         else:
-            sys.exit("A key is required for encoding. Option -k/--key")
+            sys.exit("A numeric key is required for encoding. Option -k/--key")
     else:
         sys.exit("No en-/decoding could be executed!")
 
